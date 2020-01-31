@@ -1,0 +1,10 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "model": "solmagicae:solar_array"
+    },
+    "variants": {
+        "normal": [{}],
+        "inventory": [{}]
+    }
+}

@@ -1,0 +1,136 @@
+{
+	"parent": "block/block",
+	"textures": {
+    	"solar_head": "solmagicae:blocks/solar_head",
+        "solar_concrete": "solmagicae:blocks/concrete",
+        "solar_concrete_2": "solmagicae:blocks/solar_concrete_2"
+    },
+	"display": {
+        "gui": {
+            "rotation": [ 30, 45, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0.625, 0.625, 0.625 ]
+        },
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 3, 0 ],
+            "scale": [ 0.25, 0.25, 0.25 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "head": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.4, 0.4, 0.4 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 75, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.375, 0.375, 0.375 ]
+        }
+    },
+	"elements": [
+		{
+			"name": "solar_stand",
+			"from": [0, 0, 0],
+			"to": [16, 2, 16],
+			"color": 6,
+			"faces": {
+				"north": {"uv": [0, 0, 16, 2], "texture": "#solar_concrete"},
+				"east": {"uv": [0, 0, 16, 2], "texture": "#solar_concrete"},
+				"south": {"uv": [0, 0, 16, 2], "texture": "#solar_concrete"},
+				"west": {"uv": [0, 0, 16, 2], "texture": "#solar_concrete"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#solar_concrete"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#solar_concrete"}
+			}
+		},
+		{
+			"name": "solar_head",
+			"from": [0, 10, 0],
+			"to": [16, 12, 16],
+			"color": 6,
+			"faces": {
+				"north": {"uv": [0, 0, 16, 2], "texture": "#solar_concrete"},
+				"east": {"uv": [0, 0, 16, 2], "texture": "#solar_concrete"},
+				"south": {"uv": [0, 0, 16, 2], "texture": "#solar_concrete"},
+				"west": {"uv": [0, 0, 16, 2], "texture": "#solar_concrete"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#solar_head"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#solar_concrete"}
+			}
+		},
+		{
+			"name": "stand_tile1",
+			"from": [-1, 6, 12],
+			"to": [14, 7, 13],
+			"rotation": {"angle": 45, "axis": "z", "origin": [8, 8, 19]},
+			"color": 0,
+			"faces": {
+				"north": {"uv": [0, 0, 1, 1], "texture": "#solar_concrete_2"},
+				"east": {"uv": [0, 0, 1, 1], "texture": "#solar_concrete_2"},
+				"south": {"uv": [0, 0, 1, 1], "texture": "#solar_concrete_2"},
+				"west": {"uv": [0, 0, 1, 1], "texture": "#solar_concrete_2"},
+				"up": {"uv": [0, 0, 1, 1], "texture": "#solar_concrete_2"},
+				"down": {"uv": [0, 0, 1, 1], "texture": "#solar_concrete_2"}
+			}
+		},
+		{
+			"name": "stand_tile2",
+			"from": [2, 6, 12],
+			"to": [17, 7, 13],
+			"rotation": {"angle": -45, "axis": "z", "origin": [8, 8, 19]},
+			"color": 0,
+			"faces": {
+				"north": {"uv": [0, 0, 1, 1], "texture": "#solar_concrete_2"},
+				"east": {"uv": [0, 0, 1, 1], "texture": "#solar_concrete_2"},
+				"south": {"uv": [0, 0, 1, 1], "texture": "#solar_concrete_2"},
+				"west": {"uv": [0, 0, 1, 1], "texture": "#solar_concrete_2"},
+				"up": {"uv": [0, 0, 1, 1], "texture": "#solar_concrete_2"},
+				"down": {"uv": [0, 0, 1, 1], "texture": "#solar_concrete_2"}
+			}
+		},
+		{
+			"name": "stand_tile3",
+			"from": [-1, 6, 3],
+			"to": [14, 7, 4],
+			"rotation": {"angle": 45, "axis": "z", "origin": [8, 8, 10]},
+			"color": 0,
+			"faces": {
+				"north": {"uv": [0, 0, 1, 1], "texture": "#solar_concrete_2"},
+				"east": {"uv": [0, 0, 1, 1], "texture": "#solar_concrete_2"},
+				"south": {"uv": [0, 0, 1, 1], "texture": "#solar_concrete_2"},
+				"west": {"uv": [0, 0, 1, 1], "texture": "#solar_concrete_2"},
+				"up": {"uv": [0, 0, 1, 1], "texture": "#solar_concrete_2"},
+				"down": {"uv": [0, 0, 1, 1], "texture": "#solar_concrete_2"}
+			}
+		},
+		{
+			"name": "stand_tile4",
+			"from": [2, 6, 3],
+			"to": [17, 7, 4],
+			"rotation": {"angle": -45, "axis": "z", "origin": [8, 8, 10]},
+			"color": 0,
+			"faces": {
+				"north": {"uv": [0, 0, 1, 1], "texture": "#solar_concrete_2"},
+				"east": {"uv": [0, 0, 1, 1], "texture": "#solar_concrete_2"},
+				"south": {"uv": [0, 0, 1, 1], "texture": "#solar_concrete_2"},
+				"west": {"uv": [0, 0, 1, 1], "texture": "#solar_concrete_2"},
+				"up": {"uv": [0, 0, 1, 1], "texture": "#solar_concrete_2"},
+				"down": {"uv": [0, 0, 1, 1], "texture": "#solar_concrete_2"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "solar_stable",
+			"origin": [8, 8, 8],
+			"children": [0, 1]
+		}, 2, 3, 4, 5]
+}
