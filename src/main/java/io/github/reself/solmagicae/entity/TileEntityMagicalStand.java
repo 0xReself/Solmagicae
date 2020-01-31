@@ -46,7 +46,7 @@ public class TileEntityMagicalStand extends TileEntity implements ITickable {
 		super.writeToNBT(compound);
 		NBTTagCompound tagCompound = new NBTTagCompound();
 		stack.writeToNBT(tagCompound);
-		compound.setTag("item", tagCompound);
+		compound.setTag("stack", tagCompound);
 		return compound;
 	}
 
